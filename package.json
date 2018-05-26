@@ -1,0 +1,41 @@
+{
+  "name": "okex-api-node",
+  "version": "0.0.1",
+  "description": "okex api for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit",
+    "unit": "NODE_ENV=test mocha -b --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyijun/okex-api-node.git"
+  },
+  "keywords": [
+    "okex",
+    "bitcoin",
+    "ether",
+    "ethereum",
+    "btc",
+    "eth",
+    "eos",
+    "future",
+    "trading"
+  ],
+  "author": "joa.zhang@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangyijun/okex-api-node/issues"
+  },
+  "homepage": "https://github.com/zhangyijun/okex-api-node#readme",
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "lodash": "^4.17.10",
+    "request-promise": "^4.2.2",
+    "ws": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
